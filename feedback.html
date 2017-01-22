@@ -1,0 +1,69 @@
+<html>
+<title>Conference Feedback Form</title>
+<body bgcolor=#ffffff>
+<h3>Now that the conference committee has had a nap...</h3>
+We'd like to take this opportunity to thank you for participating in the
+1996 Reflections|Projections conference.  If this form is lacking anything,
+please email suggestions to <a href="mailto:reflections@acm.uiuc.edu">
+reflections@acm.uiuc.edu</a>.
+<br><br>
+<center><img src="/images/reflections96.gif"></center>
+<h1 align=center>Conference '96 Feedback Page</h1>
+
+<form method=POST action="/acm-cgi-bin/conference/feedback.cgi">
+
+<h3 align=center> Describe Yourself</h3><b>
+<input type="radio" name="type" value="student" checked>Student 
+<input type="radio" name="type" value="professional">Professional 
+<input type="radio" name="type" value="volunteer">Volunteer 
+<input type="radio" name="type" value="sponsor">Sponsor</b><br><br>
+
+<strong>Contact Info: </strong>(optional)<br><br>
+<b>Name: </b><br><input type="text" name="name" size=25><br>
+<b>Organization: </b><br><input type="text" name="org" size=50><br> 
+<br><hr>
+<h3 align=center>Feedback </h3>
+
+How did you hear about the conference?<br><b>
+<input type="radio" name="spammage" value="invitation" checked>Invitation 
+<input type="radio" name="spammage" value="flyer">Flyer 
+<input type="radio" name="spammage" value="usenet">USENET Posting 
+<input type="radio" name="spammage" value="email">e-mail 
+<input type="radio" name="spammage" value="verbal">Word-of-mouth<br>
+<input type="radio" name="spammage" value="other">Other: 
+<input type="text" name="spam_other" size=20><br></b>
+<br>
+
+Please check if you participated in:<br><b>
+<input type="checkbox" name="jobfair">Computing Employment Fair<br>
+<input type="checkbox" name="talks">Conference Talks<br>
+<input type="checkbox" name="workshops">Conference Workshops<br>
+<input type="checkbox" name="cave">CAVE Tours<br>
+<input type="checkbox" name="mechmania">MechMania II Tournament<br></b>
+<p>
+Please list anything you particularly liked about the conference:
+<textarea cols=60 rows=7 name="goodstuff">
+</textarea>
+<br>
+Please describe any suggestions you have for how we can do better next time:
+<textarea cols=60 rows=7 name="badstuff"> 
+</textarea>
+<br>
+Please list any topics or speakers that you would like to hear in the future:
+<textarea cols=60 rows=7 name="topics">
+</textarea>
+<br>
+
+Thank you for taking the time to let us know how we're doing.  We hope to 
+improve the conference every year, and your opinion is very important to us.
+If you are interested in being contacted directly when we announce the 
+next conference, please enter your email address:<br>
+<input type="text" name="emailaddr" size=20><br>
+
+<br>
+<input type="submit" value="Send Comments">
+</form>
+<center><img src="/images/acmlogos/footerlogo.gif"><br>
+<i>Last Modified 10/14/96 dl-morgn</i></center>
+</body>
+</html>
